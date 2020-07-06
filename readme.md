@@ -38,13 +38,11 @@ Finally open `http://localhost:8000/` in your browser.
 
 ## Support
 
-如果觉得这个项目帮你节约了时间，不妨支持一下;)
-
-![-1](https://cloud.githubusercontent.com/assets/1479100/23287423/45c68202-fa78-11e6-8125-3e365101a313.jpg)
+如果觉得这个项目帮你节约了时间，不妨支持一下;),本人也是学习目的，因官网demo的bug有点多，自行修改一版可正常访问后台操作页面
 
 ## License
 
 MIT
 
 近期修改
-1.http://localhost:8000/documents无法访问,增加mysql表demo_documents
+1. http://localhost:8000/documents/ 无法访问,增加mysql表demo_documents，在storage\mysql_dump\demo_documents.sql
