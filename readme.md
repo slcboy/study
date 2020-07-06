@@ -45,3 +45,6 @@ Finally open `http://localhost:8000/` in your browser.
 ## License
 
 MIT
+
+近期修改
+1.http://localhost:8000/documents无法访问,增加mysql表demo_documents
