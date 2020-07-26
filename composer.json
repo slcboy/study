@@ -25,6 +25,7 @@
         "laravel-admin-ext/php-editor": "^1.0",
         "laravel-admin-ext/phpinfo": "dev-master",
         "laravel-admin-ext/python-editor": "^1.0",
+        "laravel-admin-ext/redis-manager": "^1.3",
         "laravel-admin-ext/reporter": "dev-master",
         "laravel-admin-ext/scheduling": "dev-master",
         "laravel-admin-ext/simplemde": "^1.0",

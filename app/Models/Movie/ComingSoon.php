@@ -16,7 +16,7 @@ class ComingSoon extends Model
 
         $start = ($page-1)*$perPage;
 
-        $data = file_get_contents("https://api.douban.com/v2/movie/coming_soon?city=上海&start=$start&count=$perPage");
+        $data = file_get_contents("https://api.douban.com/v2/movie/coming_soon?city=上海&start=$start&count=$perPage&apikey=0b2bdeda43b5688921839c8ecb20399b");
 
         $data = json_decode($data, true);
 

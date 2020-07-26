@@ -16,7 +16,7 @@ class InTheater extends Model
 
         $start = ($page-1)*$perPage;
 
-        $data = file_get_contents("https://api.douban.com/v2/movie/in_theaters?city=上海&start=$start&count=$perPage");
+        $data = file_get_contents("https://api.douban.com/v2/movie/in_theaters?city=上海&start=$start&count=$perPage&apikey=0b2bdeda43b5688921839c8ecb20399b");
 
         $data = json_decode($data, true);
 
@@ -38,7 +38,7 @@ class InTheater extends Model
 
     public function findOrFail($id)
     {
-        $data = file_get_contents("http://api.douban.com/v2/movie/subject/$id");
+        $data = file_get_contents("http://api.douban.com/v2/movie/subject/$id?apikey=0b2bdeda43b5688921839c8ecb20399b");
 
         $data = json_decode($data, true);
 

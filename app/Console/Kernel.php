@@ -37,6 +37,10 @@ class Kernel extends ConsoleKernel
         $schedule->exec('free -m')->monthlyOn(5)->at('10:00');
 
         $schedule->exec('uptime')->everyThirtyMinutes();
+
+        $schedule->call(function () {
+            info('执行了任务调度');
+        });
     }
 
     /**
